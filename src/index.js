@@ -7,9 +7,6 @@ import App from './components/app';
 
 const store = createStore(reducer);
 
-// const { inc, dec, rnd } =
-//     bindActionCreators(actions, dispatch);
-
 ReactDOM.render(
     <Provider store={store}>
         <App />
